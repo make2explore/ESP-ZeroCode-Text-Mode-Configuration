@@ -25,14 +25,10 @@ In order to use and get started with ESP-ZeroCode on ESP32, you need not to inst
 
 This tutorial is about How to get started with Text Mode Configuration in ESP ZeroCode platform/tool. We've discussed..  
 - **ESP-ZeroCode Text Mode Configuration** - Basic Introduction. 
-- **Text Mode JSON Explainantion** - Con
-- **Select Device/Module** - Select the espressif SoC module which you want to use
-- **Customize** - Project Customization
-- **Test on ESP Launchpad** - Test your ZeroCode product using ESP Launchpad Web based tool
-- **Menu Configuration Tool Demo** using ESP32C3 and C6 Dev Board  
-- **ESP ZeroCode Products** How to use product templates given on ZeroCode Platform
-- **Product - LED Strip** 
-- **Product - Plug**  
+- **Text Mode JSON Explainantion** - Detailed explaination of JSON file
+- **Custom Product** - 4 Channel Socket Board
+- **Circuit Diagram** using ESP32C3 and C6 Dev Board  
+- **Smart Devices** Smart Plug vs Smart Outlet vs Smart Switches  
 
 **Software**
 - Google Chrome Browser (Other web browsers like Firefox or Safari are not yet supported)
