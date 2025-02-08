@@ -40,7 +40,7 @@ This tutorial is about How to get started with Text Mode Configuration in ESP Ze
 
 📕 **YouTube Video Links**  
 
-- In this tutorial we will see brief introduction to ESP ZeroCode, a game-changer for IoT development. ESP ZeroCode from Espressif Systems. If you’re an IoT enthusiast or a developer, this is a tool you don’t want to miss. And then like we always do, we will see practical demonstration of this platform and its different examples using ESP32 boards.  
+- In this tutorial we will see Text Mode Configuration of ESP ZeroCode Product Development Platform. In first part we will see Introduction to Text Mode Configuration, Documentation Guide. In Second part We'll see small project - Smart Plug product with 4 channel socket.  
 
 ▶️  [Tutorial] ESP ZeroCode : Text Mode Configuration - I  - 🔗  https://youtu.be/xrCVEMla6SA  
 
