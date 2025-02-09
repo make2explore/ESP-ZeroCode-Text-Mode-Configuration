@@ -1,0 +1,217 @@
+{
+    "config_version": 3,
+    "driver": [
+        {
+            "id": 1000,
+            "type": "ezc.driver.button",
+            "name": "gpio",
+            "gpio_config": {
+                "gpio_num": 9,
+                "active_level": 0,
+                "long_press_time": 5
+            }
+        },
+        {
+            "id": 1001,
+            "type": "ezc.driver.relay",
+            "name": "gpio",
+            "gpio_config": {
+                "gpio_num": 10,
+                "active_level": 0
+            }
+        },
+        {
+            "id": 1002,
+            "type": "ezc.driver.led",
+            "name": "ws2812",
+            "lighting_config": {
+                "enable_gradient": true,
+                "enable_memory": false,
+                "enable_lowpower": false,
+                "sync_change_brightness": true,
+                "disable_auto_on": true,
+                "beads_comb": 4,
+                "fades_ms": 800
+            },
+            "ws2812_config": {
+                "led_num": 1,
+                "ctrl_io": 8
+            },
+            "hardware_config": {
+                "white_min": 10,
+                "white_max": 100,
+                "white_power_max": 100,
+                "rgb_min": 10,
+                "rgb_max": 100,
+                "rgb_power_max": 300
+            },
+            "gamma_config": {
+                "enable_gamma_adjust": true,
+                "gamma_red": 100,
+                "gamma_green": 100,
+                "gamma_blue": 100,
+                "gamma_cold": 100,
+                "gamma_warm": 100,
+                "curve_coe": 1
+            }
+        }
+    ],
+    "product_common": [
+        {
+            "type": "ezc.product_common.indicator",
+            "subtype": 0,
+            "driver": {
+                "output": 1002
+            },
+            "events": [
+                {
+                    "name": "setup_mode_start",
+                    "mode": "breathe",
+                    "speed": 2000,
+                    "color_select": 1,
+                    "r": 0,
+                    "g": 255,
+                    "b": 0,
+                    "min_brightness": 20,
+                    "max_brightness": 100,
+                    "total_ms": 0,
+                    "interrupt_forbidden": true
+                },
+                {
+                    "name": "setup_started",
+                    "mode": "breathe",
+                    "speed": 1000,
+                    "color_select": 1,
+                    "r": 255,
+                    "g": 255,
+                    "b": 0,
+                    "min_brightness": 20,
+                    "max_brightness": 100,
+                    "total_ms": 0
+                },
+                {
+                    "name": "setup_successful",
+                    "mode": "restore"
+                },
+                {
+                    "name": "setup_failed",
+                    "mode": "solid",
+                    "color_select": 1,
+                    "r": 255,
+                    "g": 0,
+                    "b": 0,
+                    "max_brightness": 100
+                },
+                {
+                    "name": "identification_start",
+                    "mode": "blink",
+                    "speed": 0,
+                    "color_select": 1,
+                    "r": 255,
+                    "g": 0,
+                    "b": 0,
+                    "min_brightness": 20,
+                    "max_brightness": 100,
+                    "total_ms": 0
+                },
+                {
+                    "name": "identification_stop",
+                    "mode": "restore"
+                },
+                {
+                    "name": "identification_blink",
+                    "mode": "blink",
+                    "speed": 1000,
+                    "color_select": 1,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255,
+                    "min_brightness": 20,
+                    "max_brightness": 100,
+                    "total_ms": 1000
+                },
+                {
+                    "name": "identification_breathe",
+                    "mode": "breathe",
+                    "speed": 1000,
+                    "color_select": 1,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255,
+                    "min_brightness": 20,
+                    "max_brightness": 100,
+                    "total_ms": 15000
+                },
+                {
+                    "name": "identification_okay",
+                    "mode": "blink",
+                    "speed": 2000,
+                    "color_select": 1,
+                    "r": 0,
+                    "g": 255,
+                    "b": 0,
+                    "min_brightness": 20,
+                    "max_brightness": 100,
+                    "total_ms": 1000
+                },
+                {
+                    "name": "identification_channel_change",
+                    "mode": "blink",
+                    "speed": 16000,
+                    "color_select": 1,
+                    "r": 255,
+                    "g": 165,
+                    "b": 0,
+                    "min_brightness": 20,
+                    "max_brightness": 100,
+                    "total_ms": 8000
+                },
+                {
+                    "name": "identification_finish_effect",
+                    "mode": "restore"
+                },
+                {
+                    "name": "identification_stop_effect",
+                    "mode": "restore"
+                }
+            ]
+        },
+        {
+            "type": "ezc.product_common.factory_reset",
+            "subtype": 2,
+            "driver": {
+                "input": 1000
+            },
+            "auto_trigger": true
+        }
+    ],
+    "product": [
+        {
+            "type": "ezc.product.socket",
+            "subtype": 1,
+            "driver": {
+                "input": 1000,
+                "output": 1001,
+                "indicator": 1002
+            },
+            "data_model": {
+                "power_default": 1,
+                "power_bootup": -1
+            }
+        }
+    ],
+    "test_mode": [
+        {
+            "type": "ezc.test_mode.common",
+            "subtype": 1
+        },
+        {
+            "type": "ezc.test_mode.ble",
+            "subtype": 1
+        },
+        {
+            "type": "ezc.test_mode.socket",
+            "subtype": 1
+        }
+    ]
+}
