@@ -45,7 +45,7 @@ This tutorial is about How to get started with Text Mode Configuration in ESP Ze
 
 ▶️  [Tutorial] ESP ZeroCode : Text Mode Configuration - I  - 🔗  https://youtu.be/xrCVEMla6SA  
 
-▶️  [Tutorial] ESP ZeroCode : Text Mode Configuration - II  - 🔗  https://youtu.be/5ST3LYAqnek     
+▶️  [Tutorial] ESP ZeroCode : Text Mode Configuration - II  - 🔗  https://youtu.be/     
 
 -------------------------------------------------------------------------------------------------------
 📒 **Important Links**  
