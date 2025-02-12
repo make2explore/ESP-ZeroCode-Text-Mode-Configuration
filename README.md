@@ -29,7 +29,7 @@ This tutorial is about How to get started with Text Mode Configuration in ESP Ze
 - **Custom Product** - 4 Channel Socket Board
 - **Circuit Diagram** using ESP32C3 and C6 Dev Board  
 - **Smart Devices** Smart Plug vs Smart Outlet vs Smart Switches  
-- **Custom Product** - In second part of Tutorial We have created custom 4Channel Plug Device
+- **Custom Product** - In second part of the Tutorial We have created custom 4Channel Plug Device
 
 **Software**
 - Google Chrome Browser (Other web browsers like Firefox or Safari are not yet supported)
