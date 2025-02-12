@@ -41,6 +41,7 @@ This tutorial is about How to get started with Text Mode Configuration in ESP Ze
 - Small submersible Pump 5V DC  
 - Bulbs - which works on 230V AC  
 - LED's - 4  
+- Resistors - (2.2KOhm x 4) and (100 Ohm)  
 - 
 
 ------------------------------------------------------------------------------------------------------
