@@ -38,6 +38,7 @@ This tutorial is about How to get started with Text Mode Configuration in ESP Ze
 - Espressif ESP32C3 and C6 Development Kit or Generic ESP32 Board  
 - 4 Channel 5V Relay module  
 - Small CPU Fan 5V DC  
+- Small submersible Pump 5V DC  
 
 ------------------------------------------------------------------------------------------------------
 
