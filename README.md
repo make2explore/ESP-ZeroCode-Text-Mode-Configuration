@@ -39,6 +39,7 @@ This tutorial is about How to get started with Text Mode Configuration in ESP Ze
 - 4 Channel 5V Relay module  
 - Small CPU Fan 5V DC  
 - Small submersible Pump 5V DC  
+- Bulbs - which works on 230V AC  
 
 ------------------------------------------------------------------------------------------------------
 
