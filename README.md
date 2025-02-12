@@ -40,7 +40,8 @@ This tutorial is about How to get started with Text Mode Configuration in ESP Ze
 - Small CPU Fan 5V DC  
 - Small submersible Pump 5V DC  
 - Bulbs - which works on 230V AC  
-- LED's
+- LED's - 4  
+- 
 
 ------------------------------------------------------------------------------------------------------
 
