@@ -40,7 +40,7 @@ This tutorial is about How to get started with Text Mode Configuration in ESP Ze
 - Small CPU Fan 5V DC  
 - Small submersible Pump 5V DC  
 - Bulbs - which works on 230V AC  
-- LED's - 4  
+- LED's - 4 (Different colors for indications)
 - Resistors - (2.2KOhm x 4) and (100 Ohm)  
 - 6x5x5mm Tactile Push Buttons - Momentory Swithes : 4Nos  
 
