@@ -25,7 +25,7 @@ In order to use and get started with ESP-ZeroCode on ESP32, you need not to inst
 
 This tutorial is about How to get started with Text Mode Configuration in ESP ZeroCode platform/tool. We've discussed..  
 - **ESP-ZeroCode Text Mode Configuration** - Basic Introduction. 
-- **Text Mode JSON Explainantion** - Detailed explaination of JSON file
+- **Text Mode JSON Explainantion** - Detailed explaination of JSON file, Objects and Key-value pairs  
 - **Custom Product** - 4 Channel Socket Board
 - **Circuit Diagram** using ESP32C3 and C6 Dev Board  
 - **Smart Devices** Smart Plug vs Smart Outlet vs Smart Switches  
