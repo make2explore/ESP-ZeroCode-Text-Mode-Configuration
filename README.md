@@ -69,7 +69,7 @@ This tutorial is about How to get started with Text Mode Configuration in ESP Ze
 
 📜 Source Code, Circuit Diagrams and Documentation : 
 
-🌐 GitHub Repository - 🔗https://github.com/make2explore/ESP-ZeroCode  
+🌐 GitHub Repository - 🔗https://github.com/make2explore/ESP-ZeroCode-Text-Mode-Configuration  
   
 🌐 Hackster Blog - 🔗 https://www.hackster.io/make2explore  
   
