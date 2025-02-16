@@ -55,7 +55,7 @@ This tutorial is about How to get started with Text Mode Configuration in ESP Ze
 
 ▶️  [Tutorial] ESP ZeroCode : Text Mode Configuration - II  - 🔗  https://youtu.be/5ST3LYAqnek     
   
-▶️  [DIY Project] Smart Light Bulb using ESP ZeroCode - 🔗  https://youtu.be    
+▶️  [DIY Project] Smart Light Bulb using ESP ZeroCode - 🔗  https://youtube.com/shorts/qPP-9395y-w     
 
 
 -------------------------------------------------------------------------------------------------------
