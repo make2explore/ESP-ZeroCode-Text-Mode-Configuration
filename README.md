@@ -16,7 +16,7 @@ ZeroCode supports different kinds of products like lightbulbs, lighting fixtures
 
 ## Documentation
 
-ESP ZeroCode allows device makers to instantly specify, build and launch connected products, right through their browsers. A wide variety of products such as lightbulbs, lighting fixtures, led strips, sockets, switches, roller blinds, refrigerators, laundry washers, thermostats and more are supported.
+ESP ZeroCode allows IoT device makers to instantly specify, build and launch connected products, right through their browsers. A wide variety of products such as lightbulbs, lighting fixtures, led strips, sockets, switches, roller blinds, refrigerators, laundry washers, thermostats and more are supported.
 
 Refer the [ESP-ZeroCode Documentation](https://docs.zerocode.espressif.com/) for the latest version of the documentation.
 
